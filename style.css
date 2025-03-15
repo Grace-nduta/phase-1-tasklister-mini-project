@@ -35,3 +35,53 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+/* Style the form */
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="date"], select {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  padding: 5px 10px;
+}
+
+#tasks li {
+  margin: 5px 0;
+  padding: 5px;
+  list-style-type: none;
+}
+
+#tasks li button {
+  margin-left: 10px;
+  padding: 2px 5px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#sort-tasks {
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  background-color: navy;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#tasks li.high {
+  color: red;
+}
+
+#tasks li.medium {
+  color: orange;
+}
+
+#tasks li.low {
+  color: green;
+}
